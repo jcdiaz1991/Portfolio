@@ -1,0 +1,96 @@
+html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+  background-color: white;
+  color:black;
+}
+
+#banner{
+  color:white;
+}
+.col-lg-12 > a {
+  font-family: 'poppins','sans-serif';
+  color:white ;
+  font-size: 30px;
+}
+
+.col-lg-12 > a:hover {
+  color:red ;
+  text-decoration: none;
+}
+
+.header {
+  background-image: url("http://res.cloudinary.com/jcdiaz1991/image/upload/v1508102398/1680x1050-data-out-118-68435498-los-angeles-wallpapers_kzh2ue.jpg");
+    min-height:100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#projects{
+  background-color:#767685;
+  background-image: url("https://res.cloudinary.com/jcdiaz1991/image/upload/v1530655936/red_uonriw.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    ::-webkit-scrollbar { display:none; };
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    overflow: -moz-hidden-scrollable;
+}
+
+#contact{
+  background-color:#D3D3D3 ;
+}
+
+#showcase{
+-webkit-overflow-scrolling: touch;
+
+}
+
+
+.sectionPadding{
+  padding: 40px 20px 40px 20px;
+}
+
+.headingPadding{
+  padding-bottom:30px;
+}
+
+
+p {
+  font-family: 'poppins','sans-serif';
+  color:black ;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+img {
+  padding-bottom: 10px;
+}
+
+.hide {
+  display:none !important;
+}
+
+.sticky{
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index: 1;
+}
+
+.iconFA{
+  color:red;
+  font-size: 30px;
+}
