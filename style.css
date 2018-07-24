@@ -9,7 +9,7 @@ html, body {
 #banner{
   color:white;
 }
-.col-lg-12 > a {
+.col-lg-12 > a, .des > p> a, .caption > p > a {
   font-family: 'poppins','sans-serif';
   color:white ;
   font-size: 30px;
