@@ -94,3 +94,8 @@ img {
   color:red;
   font-size: 30px;
 }
+
+
+.contactIMG{
+  max-height: 200px;
+}
