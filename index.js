@@ -1,18 +1,18 @@
-const webImages = [{ sample:"http://res.cloudinary.com/jcdiaz1991/image/upload/v1530201612/RandomQuotes_gfwe2v.png",
+/*const webImages = [{ sample:"http://res.cloudinary.com/jcdiaz1991/image/upload/v1530201612/RandomQuotes_gfwe2v.png",
 bg:"http://res.cloudinary.com/jcdiaz1991/image/upload/e_brightness:-26/v1530317401/blue_fipkuz.png"}, {sample:"http://res.cloudinary.com/jcdiaz1991/image/upload/v1530201611/WeatherApp_t237di.png",
 bg:"https://res.cloudinary.com/jcdiaz1991/image/upload/v1530318271/dblue_mmnb9h.png"}, {sample:"http://res.cloudinary.com/jcdiaz1991/image/upload/v1530201608/WikiViewer1_cupcpq.png",
 bg:"https://res.cloudinary.com/jcdiaz1991/image/upload/v1530319801/third_vldfuu.png"}, {sample:"http://res.cloudinary.com/jcdiaz1991/image/upload/v1530201607/TwitchStreamers_a1hjfk.png",
 bg:"https://res.cloudinary.com/jcdiaz1991/image/upload/v1530319973/fourth_gxvtsr.png"}, {sample:"http://res.cloudinary.com/jcdiaz1991/image/upload/v1508608925/Screen_Shot_2017-10-21_at_11.01.36_AM_lf4epv.png",
 bg:"https://res.cloudinary.com/jcdiaz1991/image/upload/v1530320224/orange_g6no2d.png"}, {sample:"http://res.cloudinary.com/jcdiaz1991/image/upload/v1516469309/Screen_Shot_2018-01-20_at_9.24.02_AM_iet5xj.png",
 bg:"http://res.cloudinary.com/jcdiaz1991/image/upload/v1530320358/light_aakyqb.png"
-}]
+}]*/
 window.onload = windowWidth();
 
 //switches the projects to next and before hiding divs and removing and adding classes so the transitions look smoother
 var current=0;
 function nextProject(slide){
   let past=current;
-  let arrOfDivs = ["quotes", "weather", "wiki", "twitch", "glasses"];
+  let arrOfDivs = ["rock", "quotes", "weather", "wiki", "twitch", "glasses"];
   arrOfDivs.forEach(value=>document.getElementById(`${value}`).classList.remove('animated', 'slideInLeft', 'slideInRight','slideOutRight','slideOutLeft', 'shake'));
   if (slide && current == 0 || slide == false && current == arrOfDivs.length-1){
     document.getElementById(`${arrOfDivs[current]}`).classList.add('animated','shake');
