@@ -20,6 +20,10 @@ html, body {
   text-decoration: none;
 }
 
+.caption > p, .des > p, #projects >.row> .col-lg-12 > h3 {
+  color: white;
+}
+
 .header {
   background-image: url("http://res.cloudinary.com/jcdiaz1991/image/upload/v1508102398/1680x1050-data-out-118-68435498-los-angeles-wallpapers_kzh2ue.jpg");
     min-height:100%;
